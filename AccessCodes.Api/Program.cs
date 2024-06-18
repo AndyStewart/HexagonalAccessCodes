@@ -47,3 +47,5 @@ app.MapGet("/", (AccessCodeContext context) => $"Hello World! {context.AccessCod
     .WithOpenApi();
 
 app.Run();
+
+public partial class Program { }
